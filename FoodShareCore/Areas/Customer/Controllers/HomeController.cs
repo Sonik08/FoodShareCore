@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FoodShareCore.Models;
+using FoodShareCore.Models.ViewModels;
 
-namespace FoodShareCore.Controllers
+namespace FoodShareCore.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

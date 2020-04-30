@@ -1,6 +1,6 @@
 using System;
 
-namespace FoodShareCore.Models
+namespace FoodShareCore.Models.ViewModels
 {
     public class ErrorViewModel
     {

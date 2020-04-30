@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace FoodShareCore.Data
+namespace FoodShareCore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
